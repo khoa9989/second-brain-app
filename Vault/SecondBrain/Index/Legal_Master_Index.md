@@ -11,6 +11,8 @@ last_updated: 2026-07-03
 
 | Mã văn bản | Tên ngắn | Nhóm chủ đề | Cấp độ | Hiệu lực từ | Thay thế | Trạng thái | File | Ghi chú |
 |---|---|---|---|---|---|---|---|---|
+| **QĐ21/2026** | Bãi bỏ QĐ14/2023 | Chi phí | Địa phương HP | 2026-04-15 | - | Còn hiệu lực | [Link](../Legal_Library/Local/HaiPhong/2026/QD21_2026_QD_UBND.md) | Bãi bỏ toàn bộ QĐ14/2023 |
+| **QĐ14/2023** | Lập, thẩm định DT nhiệm vụ chuẩn bị đầu tư | Chi phí | Địa phương HP | 2023-03-28 | QĐ21/2026 | Hết hiệu lực | - | [HẾT HIỆU LỰC] Bị bãi bỏ từ 15/04/2026 |
 | **QĐ171/2025** | Bồi thường, hỗ trợ, tái định cư HP | GPMB | Địa phương HP | 2025-10-18 | - | Còn hiệu lực | [Link](../Legal_Library/Local/2025/QD171_2025_BoiThuong_HaiPhong.md) | Căn cứ nền bồi thường |
 | **QĐ17/2026** | Sửa đổi, bổ sung QĐ171 | GPMB | Địa phương HP | 2026-04-15 | - | Còn hiệu lực | [Link](../Legal_Library/Local/2026/QD17_2026_SuaDoiQD171_HaiPhong.md) | Dùng song song với QĐ171 |
 | **NQ85/2025** | Bảng giá đất HP lần đầu | GPMB | Địa phương HP | 2026-01-01 | - | Còn hiệu lực | [Link](../Legal_Library/Local/2025/NQ85_2025_BangGiaDat_HaiPhong.md) | Hiệu lực từ 01/01/2026 |
