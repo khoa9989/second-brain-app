@@ -193,6 +193,35 @@ Make Fast-acknowledge + Batch Response the permanent default for all Telegram di
 - Related Files: /home/openclawtom/.openclaw/workspace/MEMORY.md
 - Tags: interaction, latency, batch-response, legal-accuracy, operating-standard
 
+---
+
+## [LRN-20260706-002] best_practice
+
+**Logged**: 2026-07-06T18:28:00+07:00
+**Priority**: high
+**Status**: completed
+**Area**: workflow
+
+### Summary
+Protocol Cập nhật Pháp lý is now a priority operating workflow for legal-document ingestion and project-wide citation updates.
+
+### Details
+anh Khoa explicitly defined a 6-step legal update protocol and required it to run without re-confirmation when triggered by the phrase: "TÔM, có [Tên văn bản], thực hiện Protocol Cập nhật Pháp lý". Required steps:
+1. Find/verify/normalize the legal text and store it in Vault/SecondBrain/Legal_Library/Local/HaiPhong as Markdown with metadata
+2. Update Legal_Master_Index and archive superseded texts
+3. Scan Projects for citations to old texts and replace or flag them
+4. Sync to Second Brain / Netlify / repository
+5. Evaluate audit, export, and progress risk
+6. Send one batch report with links, impacted projects, and remaining risks
+
+### Suggested Action
+Treat the protocol as the default legal-ingestion workflow whenever triggered by the specified phrase; do not ask again unless the source text itself is missing or unreadable.
+
+### Metadata
+- Source: user_explicit_requirement (2026-07-06T18:28:44+07:00)
+- Related Files: /home/openclawtom/.openclaw/workspace/MEMORY.md, /home/openclawtom/.openclaw/workspace/Vault/00_Index/QuyTrinh_NhapLuat.md
+- Tags: legal-workflow, ingestion, index, sync, audit-risk, batch-report
+
 ## [LRN-20260704-001] correction
 
 **Logged**: 2026-07-04T16:15:00+07:00
