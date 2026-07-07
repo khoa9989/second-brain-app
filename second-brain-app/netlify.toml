@@ -1,6 +1,6 @@
 [build]
+  command = "node scripts/sync_to_blobs.js"
   publish = "public"
-  functions = "functions"
 
 [functions]
   node_bundler = "esbuild"
