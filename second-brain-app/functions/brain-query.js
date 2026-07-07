@@ -4,7 +4,7 @@ const { requireAuth } = require('./_auth');
 const STORE = process.env.SB_BLOBS_STORE;
 const SITE_ID = process.env.SB_BLOBS_SITE_ID;
 const TOKEN = process.env.SB_BLOBS_TOKEN;
-const KEY = 'notes.json';
+const KEY = '***';
 
 function normalizeEndpoint(url='') {
   const s = String(url || '').trim();

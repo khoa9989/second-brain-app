@@ -3,7 +3,9 @@ const fs = require('fs');
 const path = require('path');
 
 const STORE = process.env.SB_BLOBS_STORE || 'second-brain-store-khoa-20260629155600';
-const KEY = 'notes.json';
+const SITE_ID = process.env.SB_BLOBS_SITE_ID;
+const TOKEN = process.env.SB_BLOBS_TOKEN;
+const KEY = '***';
 
 function walkMarkdownFiles(dir) {
   const results = [];
@@ -24,9 +26,9 @@ function extractTitle(content, fallback) {
 async function syncToBlobs() {
   const rootDir = path.join(__dirname, '..');
   const vaultPath = path.join(rootDir, 'Vault');
-  if (!fs.existsSync(vaultPath)) throw new Error(`Không tìm thấy Vault tại ${vaultPath}`);
+  if (!fs.existsSync(vaultPath)) throw new Error(`Vault not found at ${vaultPath}`);
 
-  const store = getStore(STORE);
+  const store = getStore(STORE, { siteID: SITE_ID, token: TOKEN });
   const mdFiles = walkMarkdownFiles(vaultPath);
   const notes = mdFiles.map((filePath) => {
     const content = fs.readFileSync(filePath, 'utf8');
